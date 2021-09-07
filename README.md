@@ -18,7 +18,7 @@ In this project you can see informations about how the Covid crisis has been in 
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Netlify deploy](https://sleepy-kepler-b67f18.netlify.app)
 
 
 ## Getting Started
