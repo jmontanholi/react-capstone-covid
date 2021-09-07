@@ -6,19 +6,19 @@
   font-size: 2.5rem;
   text-align: left;
   margin: 0;
-  background-color: #35548B;
-  color: #DDE4F6;
+  background-color: #35548b;
+  color: #dde4f6;
   width: 100%;
   padding: 0.6rem 0 0.6rem;
 }
 
 .marginLeft {
-  margin-left: 0.5rem;
+  margin-left: 0.6rem;
 }
 
 .titleInfo {
-  background-color: #4167AE;
-  color: #DDE4F6;
+  background-color: #4167ae;
+  color: #dde4f6;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -66,14 +66,10 @@
   font-size: 1.2rem;
   text-align: left;
   margin: 0;
-  background-color: #35548B;
-  color: #DDE4F6;
+  background-color: #35548b;
+  color: #dde4f6;
   width: 100%;
   padding: 0.6rem 0 0.6rem;
-}
-
-.marginLeft {
-  margin-left: 0.6rem;
 }
 
 .ul {
@@ -85,18 +81,18 @@
 }
 
 .li {
-  color: #DDE4F6;
+  color: #dde4f6;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .li1 {
-  background-color: #3D60A2;
+  background-color: #3d60a2;
 }
 
 .li2 {
-  background-color: #35548B;
+  background-color: #35548b;
 }
 
 .liTitle {
