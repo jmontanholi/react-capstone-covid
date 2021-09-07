@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
-import getData, { date } from '../redux/slices/covidSlice';
+import { date } from '../redux/slices/covidSlice';
 import { filterByCountry } from '../redux/covid/covid';
 
 const HomePage = () => {
@@ -15,9 +15,6 @@ const HomePage = () => {
     countries = state.data.dates[date].countries;
     countriesKeys = Object.entries(countries);
   }
-  useEffect(() => {
-    dispatch(getData());
-  }, []);
   const handleCategory = (event) => {
     setSelect(event.target.value);
   };
