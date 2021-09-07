@@ -19,6 +19,9 @@ const filterByCountry = (payload) => ({
 });
 
 const CovidReducer = (state = initialState, action) => {
+  if (state === undefined || action === undefined) {
+    return initialState;
+  }
   switch (action.type) {
     case GET_DATA:
       return { ...state, loading: true };

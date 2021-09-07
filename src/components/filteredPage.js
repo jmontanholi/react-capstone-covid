@@ -21,7 +21,7 @@ const FilteredPage = () => {
       </button>
       <div className={style.titleDiv}>
         <h1 className={`titleFont ${style.countryTitle}`}>
-          <span className={style.marginLeft}>
+          <span data-testid="country" className={style.marginLeft}>
             {state.country}
           </span>
         </h1>
@@ -41,7 +41,7 @@ const FilteredPage = () => {
           More Info
         </span>
       </h2>
-      <ul className={style.ul}>
+      <ul data-testid="ul" className={style.ul}>
         <li className={`${style.li1} ${style.li}`}>
           <p className={`textFont ${style.liText}`}>
             {

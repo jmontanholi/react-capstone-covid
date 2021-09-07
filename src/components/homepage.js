@@ -25,7 +25,7 @@ const HomePage = () => {
       { state.loading
       && (
       <div className={style.loadingDiv}>
-        <h2 className={style.loading}>Loading, please wait</h2>
+        <h2 data-testid="loading" className={style.loading}>Loading, please wait</h2>
         <div className="loadingio-spinner-reload-zln0owzosys">
           <div className="ldio-cf5nk0nv464">
             <div>
@@ -40,10 +40,10 @@ const HomePage = () => {
       { covidTotal
       && (
       <>
-        <h1 className={`titleFont ${style.homeTitle}`}>Home Page - Covid Situation Report</h1>
+        <h1 data-testid="title" className={`titleFont ${style.homeTitle}`}>Home Page - Covid Situation Report</h1>
         <h2 className={`titleFont ${style.worldTitle}`}><span className={style.paddingLeft}>Worldwide Info - Up to date</span></h2>
         <div className={`${style.generalInfo1} ${style.generalInfo}`}>
-          <p className={`textFont ${style.generalText}`}>
+          <p data-testid="confirmed" className={`textFont ${style.generalText}`}>
             {covidTotal.today_confirmed}
           </p>
           <h2 className={`titleFont ${style.generalTitle}`}>Confirmed Cases</h2>
@@ -81,7 +81,7 @@ const HomePage = () => {
               </select>
             </label>
           </div>
-          <button type="button" className={style.submitBtn} onClick={() => { dispatch(filterByCountry(select)); }}>
+          <button data-testid="button" type="button" className={style.submitBtn} onClick={() => { dispatch(filterByCountry(select)); }}>
             <NavLink className={style.link} to={`/${select}`}>
               <BiRightArrowCircle />
             </NavLink>
