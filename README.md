@@ -8,6 +8,7 @@
 
 In this project you can see informations about how the Covid crisis has been in the world since it's start, you can also filter to see this and more information about one single country.
 
+Here is a [video explaining this project](https://www.loom.com/share/86c91c9a30bf45a28a50b71e11ca7c4a)
 ## Built With
 
 - React
