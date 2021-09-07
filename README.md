@@ -1,18 +1,20 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# React-Redux Capstone Project - Covid Information System
 
-> One paragraph statement about the project.
+> This is a Single Page App for Mobile that shows informations about the Covid crisis.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./printscreen.PNG)
 
-Additional description about the project and its features.
+In this project you can see informations about how the Covid crisis has been in the world since it's start, you can also filter to see this and more information about one single country.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- React
+- Redux
+- Git
+- GitHub
+- VScode
 
 ## Live Demo
 
@@ -21,39 +23,35 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- Git & GitHub
+- CommandLine
+- Browser
 ### Setup
 
+- To setup this project locally you need to choose where to clone this repository.
+- Then please open your commandLine and use the following command: 
+`git clone https://github.com/jmontanholi/react-capstone-covid.git`
+- Travel to that directory and open the files
 ### Install
 
+- To install you need to run `npm install` or `yarn install` depending on your preference.
 ### Usage
 
+- In order to use this app locally just use `npm start` or `yarn install` depending on your preference.
 ### Run tests
 
-### Deployment
-
-
-
+- To run tests just run `npm test` or `yarn test` depending on your preference.
 ## Authors
 
-👤 **Author1**
+👤 **João Vítor Montanholi Nunes**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [jmontanholi](https://github.com/jmontanholi)
+- Twitter: [MontanholiNunes](https://twitter.com/MontanholiNunes)
+- LinkedIn: [Joao vitor montanholi](https://www.linkedin.com/in/joaovitormontanholi/)
 
 ## 🤝 Contributing
 
@@ -67,9 +65,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse 
+- The original design, which inspirate this project is from Nelson Sakwa, you can see his design [here](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs))
 
 ## 📝 License
 
