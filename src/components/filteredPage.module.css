@@ -1,0 +1,108 @@
+.countryTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  text-align: left;
+  margin: 0;
+  background-color: #35548B;
+  color: #DDE4F6;
+  width: 100%;
+  padding: 0.6rem 0 0.6rem;
+}
+
+.marginLeft {
+  margin-left: 0.5rem;
+}
+
+.titleInfo {
+  background-color: #4167AE;
+  color: #DDE4F6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleInfoText {
+  margin: 1rem 0;
+  font-size: 2rem;
+}
+
+.infoTitle {
+  font-size: 1rem;
+  padding: 0;
+  margin-right: 0.5rem;
+  align-self: flex-end;
+}
+
+.backBtn {
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  background-color: transparent;
+  margin-top: 0.5rem;
+  width: 60%;
+}
+
+.link {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #ced3db;
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+.ulTitle {
+  font-size: 1.2rem;
+  text-align: left;
+  margin: 0;
+  background-color: #35548B;
+  color: #DDE4F6;
+  width: 100%;
+  padding: 0.6rem 0 0.6rem;
+}
+
+.marginLeft {
+  margin-left: 0.6rem;
+}
+
+.ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+
+.li {
+  color: #DDE4F6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.li1 {
+  background-color: #3D60A2;
+}
+
+.li2 {
+  background-color: #35548B;
+}
+
+.liTitle {
+  font-size: 0.8rem;
+}
+
+.liText {
+  font-size: 2rem;
+}
