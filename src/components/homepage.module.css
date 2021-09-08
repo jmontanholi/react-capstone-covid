@@ -1,0 +1,102 @@
+.div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 0.1rem;
+  background-color: #5788e4;
+}
+
+.homeTitle {
+  font-size: 1.5rem;
+  margin: 0;
+  background-color: #5788e5;
+  padding: 1rem 0 1rem 0;
+  color: #dde4f6;
+}
+
+.worldTitle {
+  font-size: 1.2rem;
+  text-align: left;
+  margin: 0;
+  background-color: #35548b;
+  color: #dde4f6;
+  width: 100%;
+  padding: 0.6rem 0 0.6rem;
+}
+
+.paddingLeft {
+  margin-left: 0.6rem;
+}
+
+.generalDiv {
+  display: flex;
+  color: #dde4f6;
+  width: 100%;
+}
+
+.generalInfo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: right;
+}
+
+.generalInfo1 {
+  background-color: #3d60a2;
+  color: #dde4f6;
+  font-size: 2rem;
+}
+
+.generalInfo2 {
+  background-color: #35548b;
+  font-size: 1.3rem;
+}
+
+.generalInfo3 {
+  background-color: #4167ae;
+  font-size: 1.3rem;
+}
+
+.generalTitle {
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+}
+
+.generalText {
+  align-self: center;
+  margin-bottom: 1rem;
+}
+
+.form {
+  background-color: #5788e5;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.labelDiv {
+  margin-top: 2rem;
+}
+
+.select {
+  border-radius: 5px;
+  padding: 0.3rem;
+}
+
+.submitBtn {
+  border-radius: 5px;
+  border: none;
+  font-size: 3rem;
+  background-color: transparent;
+  margin-top: 0.5rem;
+}
+
+.link {
+  color: white;
+}
+
+.link:hover {
+  color: #ced3db;
+}
