@@ -6,7 +6,7 @@ describe('Covid Reducer', () => {
       data: {},
       loading: false,
       error: {},
-      country: 'none',
+      country: 'Afghanistan',
     };
     expect(CovidReducer()).toStrictEqual(initialState);
   });
@@ -16,7 +16,7 @@ describe('Covid Reducer', () => {
       data: {},
       loading: false,
       error: {},
-      country: 'none',
+      country: 'Afghanistan',
     };
 
     expect(CovidReducer({ type: 'GET_BOOKS' })).toStrictEqual(initialState);
@@ -27,7 +27,7 @@ describe('Covid Reducer', () => {
       data: {},
       loading: false,
       error: {},
-      country: 'none',
+      country: 'Afghanistan',
     };
 
     expect(CovidReducer(initialState)).toStrictEqual(initialState);
@@ -38,7 +38,7 @@ describe('Covid Reducer', () => {
       data: {},
       loading: false,
       error: {},
-      country: 'none',
+      country: 'Afghanistan',
     };
     const GET_DATA = 'covid/covidSlice/GET_DATA';
 
@@ -46,7 +46,7 @@ describe('Covid Reducer', () => {
       data: {},
       loading: true,
       error: {},
-      country: 'none',
+      country: 'Afghanistan',
     });
   });
 });

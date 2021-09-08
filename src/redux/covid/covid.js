@@ -10,7 +10,7 @@ const initialState = {
   data: {},
   loading: false,
   error: {},
-  country: 'none',
+  country: 'Afghanistan',
 };
 
 const filterByCountry = (payload) => ({

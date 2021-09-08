@@ -2,7 +2,6 @@
 import { BrowserRouter as Router } from 'react-router-dom';
 import { render, screen, fireEvent } from '@testing-library/react';
 import { Provider } from 'react-redux';
-
 import store from '../redux/storeConfig';
 import App from '../App';
 import FilteredPage from '../components/filteredPage';
@@ -10,7 +9,7 @@ import FilteredPage from '../components/filteredPage';
 const unmockedFetch = global.fetch;
 const data = {
   dates: {
-    '2021-09-07': {
+    '2021-09-08': {
       countries: {
         Afghanistan: {
           name: 'Afghanistan',
@@ -60,13 +59,13 @@ const MockFilteredPage = () => (
 
 describe('Code Integration, Fetch and Show', () => {
   it('Should return a home page with the right number of confirmed cases', async () => {
+    const flushPromises = () => new Promise(setImmediate);
+
     render(<MockApp />);
+    await flushPromises();
+    const title = screen.getByTestId('confirmed');
 
-    setTimeout(() => {
-      const title = screen.getByTestId('confirmed');
-
-      expect(title).toBe('221599126');
-    }, 2000);
+    expect(title.textContent).toBe('221599126');
   });
 
   it('Should render more informations page with the right information', () => {

@@ -1,0 +1,317 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filtered Page Renders Correctly 1`] = `
+<div
+  className="div"
+>
+  <button
+    className="backBtn"
+    type="button"
+  >
+    <a
+      aria-current="page"
+      className="link active"
+      href="/"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <svg
+        className="icon"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.999,1.993C6.486,1.994,2,6.48,1.999,11.994c0,5.514,4.486,10,10.001,10c5.514-0.001,10-4.487,10-10 C22,6.48,17.514,1.994,11.999,1.993z M12,19.994c-4.412,0-8.001-3.589-8.001-8c0.001-4.411,3.59-8,8-8.001 C16.411,3.994,20,7.583,20,11.994C20,16.404,16.411,19.993,12,19.994z"
+        />
+        <path
+          d="M12.012 7.989L8.007 11.994 12.012 15.998 12.012 12.994 16.006 12.994 16.006 10.994 12.012 10.994z"
+        />
+      </svg>
+      Back to Home Page
+    </a>
+  </button>
+  <div
+    className="titleDiv"
+  >
+    <h1
+      className="titleFont countryTitle"
+    >
+      <span
+        className="marginLeft"
+        data-testid="country"
+      >
+        Afghanistan
+      </span>
+    </h1>
+    <div
+      className="titleInfo"
+    >
+      <p
+        className="textFont titleInfoText"
+      >
+        153626
+      </p>
+      <h2
+        className="titleFont infoTitle"
+      >
+        Total Confirmed Cases
+      </h2>
+    </div>
+  </div>
+  <h2
+    className="titleFont ulTitle"
+  >
+    <span
+      className="marginLeft"
+    >
+      More Info
+    </span>
+  </h2>
+  <ul
+    className="ul"
+    data-testid="ul"
+  >
+    <li
+      className="li1 li"
+    >
+      <p
+        className="textFont liText"
+      >
+        7144
+      </p>
+      <h2
+        className="titleFont liTitle"
+      >
+        Total Confirmed Deaths
+      </h2>
+    </li>
+    <li
+      className="li2 li"
+    >
+      <p
+        className="textFont liText"
+      >
+        82586
+      </p>
+      <h2
+        className="titleFont liTitle"
+      >
+        Total Confirmed Recovered
+      </h2>
+    </li>
+    <li
+      className="li2 li"
+    >
+      <p
+        className="textFont liText"
+      >
+        92
+      </p>
+      <h2
+        className="titleFont liTitle"
+      >
+        Todays Confirmed Cases
+      </h2>
+    </li>
+    <li
+      className="li1 li"
+    >
+      <p
+        className="textFont liText"
+      >
+        3
+      </p>
+      <h2
+        className="titleFont liTitle"
+      >
+        Todays Deaths
+      </h2>
+    </li>
+    <li
+      className="li1 li"
+    >
+      <p
+        className="textFont liText"
+      >
+        0
+      </p>
+      <h2
+        className="titleFont liTitle"
+      >
+        Todays Recovered
+      </h2>
+    </li>
+    <li
+      className="li2 li"
+    >
+      <p
+        className="textFont liText"
+      >
+        89
+      </p>
+      <h2
+        className="titleFont liTitle"
+      >
+        Todays Opened Cases
+      </h2>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Home Page Renders correctly 1`] = `
+<div
+  className="div"
+/>
+`;
+
+exports[`Loading assets Renders Correctly 1`] = `
+<div
+  className="loadingDiv"
+>
+  <h2
+    className="loading"
+    data-testid="loading"
+  >
+    Loading, please wait
+  </h2>
+  <div
+    className="loadingio-spinner-reload-zln0owzosys"
+  >
+    <div
+      className="ldio-cf5nk0nv464"
+    >
+      <div>
+        <div />
+        <div />
+        <div />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select Country Renders Correctly 1`] = `
+<form
+  className="form"
+>
+  <h2
+    className="titleFont worldTitle"
+  >
+    <span
+      className="paddingLeft"
+    >
+      Filter By Country:
+    </span>
+  </h2>
+  <div
+    className="labelDiv"
+  >
+    <label
+      className="textFont label"
+      htmlFor="countries"
+    >
+      <select
+        className="select"
+        id="countries"
+        name="countries"
+        onChange={[Function]}
+      >
+        <option
+          className="textFont option"
+          value="Afghanistan"
+        >
+          Afghanistan
+        </option>
+      </select>
+    </label>
+  </div>
+  <button
+    className="submitBtn"
+    data-testid="button"
+    onClick={[Function]}
+    type="button"
+  >
+    <a
+      aria-current={null}
+      className="link"
+      href="/Afghanistan"
+      onClick={[Function]}
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.999,1.993c-5.514,0.001-10,4.487-10,10.001s4.486,10,10.001,10c5.513,0,9.999-4.486,10-10 C22,6.48,17.514,1.994,11.999,1.993z M12,19.994c-4.412,0-8.001-3.589-8.001-8s3.589-8,8-8.001C16.411,3.994,20,7.583,20,11.994 C19.999,16.405,16.41,19.994,12,19.994z"
+        />
+        <path
+          d="M12 10.994L8 10.994 8 12.994 12 12.994 12 16 16.005 11.995 12 7.991z"
+        />
+      </svg>
+    </a>
+  </button>
+</form>
+`;
+
+exports[`Submit Button Renders Correctly 1`] = `
+<button
+  className="submitBtn"
+  data-testid="button"
+  onClick={[Function]}
+  type="button"
+>
+  <a
+    aria-current="page"
+    className="link active"
+    href="/"
+    onClick={[Function]}
+    style={Object {}}
+  >
+    <div>
+      <svg
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.999,1.993C6.486,1.994,2,6.48,1.999,11.994c0,5.514,4.486,10,10.001,10c5.514-0.001,10-4.487,10-10 C22,6.48,17.514,1.994,11.999,1.993z M12,19.994c-4.412,0-8.001-3.589-8.001-8c0.001-4.411,3.59-8,8-8.001 C16.411,3.994,20,7.583,20,11.994C20,16.404,16.411,19.993,12,19.994z"
+        />
+        <path
+          d="M12.012 7.989L8.007 11.994 12.012 15.998 12.012 12.994 16.006 12.994 16.006 10.994 12.012 10.994z"
+        />
+      </svg>
+      Back To Home Page
+    </div>
+  </a>
+</button>
+`;
