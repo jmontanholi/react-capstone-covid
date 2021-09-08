@@ -8,19 +8,6 @@
   background-color: #5788e4;
 }
 
-.loadingDiv {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 25%;
-}
-
-.loading {
-  align-items: center;
-  color: #dde4f6;
-}
-
 .homeTitle {
   font-size: 1.5rem;
   margin: 0;
